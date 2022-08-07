@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
+    /* color: white; */
     /* background-image: url('/img/23_37\ _\ waneella\ on\ Patreon.gif'); */
 
 }
@@ -126,3 +127,25 @@
     font-size: 2rem;
     margin-bottom: 20px;
 }
+/* Portfolio Section */
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0,0.9);
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+.gallery img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+}
+/* Service section */
