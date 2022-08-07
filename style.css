@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
+    /* background-image: url('/img/23_37\ _\ waneella\ on\ Patreon.gif'); */
 
 }
 .navbar{
@@ -19,7 +20,7 @@
     margin: 20px 0px;
 }
 .navbar ul li{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 .navbar ul li a{
@@ -32,5 +33,70 @@
     background-color: white;
     color: black;
     box-shadow: 0 0 10px white;
+    border-radius: 10px;
 }
 /* Home section */
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0,0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#home h1{
+    font-size: 5rem;
+}
+#home  button{
+    /* font-size: 2rem; */
+    padding: 10px 35px;
+    color: black;
+    border:none;
+    border-radius: 9px;
+    min-height:40px; 
+    min-width: 120px;
+
+    transition: .6s ease;
+}
+#home button:hover{
+    cursor: pointer;
+    background-color:pink;
+    transition: 0.7s;
+    box-shadow: 0  0  5px  white,  0  0  10px white, 0 0  15px white;
+    font-weight: bold; ;
+}
+
+#home  button:active{
+    background-color: #ffbf00;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* background-image: url(''); */
+    background: black;
+    /* url('/img/olly.jpg') no-repeat center center/cover; */
+    /* CHECK HOW TO RESIZE THE IMAGE */
+    height: 900px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.headings{
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+/* ABOUT SECTION */
