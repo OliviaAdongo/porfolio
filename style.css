@@ -7,6 +7,9 @@
     /* background-image: url('/img/23_37\ _\ waneella\ on\ Patreon.gif'); */
 
 }
+html{
+    scroll-behavior: smooth;
+}
 .navbar{
     display: flex;
     justify-content: center;
@@ -209,12 +212,12 @@
 .input{
     padding: 12px;
     margin: 15px;
-    width: 40%;
+    width: 70%;
     border: none;
     outline: none;
 }
 #msg{
-    width: 40%;
+    width: 70%;
     padding: 10px;
     margin: 15px;
     border: none;
